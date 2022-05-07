@@ -199,3 +199,32 @@ nav ul li a:hover{
 }
 
 /* specification end */
+
+
+.honda-logo{
+    text-align: center;
+    margin: 100px 0;
+}
+
+.footer-line{
+    background-color: rgb(78, 78, 78);
+    height: 1px;
+    border: none;
+}
+
+
+footer .row{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .row a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .row a:hover{
+    text-decoration: underline;
+    color: red;
+}
