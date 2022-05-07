@@ -91,3 +91,62 @@ nav ul li a:hover{
     background-color: black;
     transition: .2s;
 }
+
+/* starting about section */
+
+.container{
+    margin: 0 14%;
+    color: white;
+}
+
+.about{
+    display: flex;
+    line-height: 35px;
+}
+
+.about-head{
+    font-size: 30px;
+    border-bottom: 2px solid white;
+}
+
+.about-img{
+    margin-left: 50px;
+}
+
+/* starting feature section */
+
+.feature-title{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: 60px;
+}
+
+.feature-title p{
+    margin-top: -30px;
+}
+
+.feature .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.feature .card{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.feature .card .sec-1{
+    padding-top: 5px;
+}
+
+.feature .card-img{
+    margin: 0 100px;
+}
+
+.feature .card-img img{
+    max-width: 200px;
+}
